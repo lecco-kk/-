@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int amount=0;
+	int price=0;
+	printf("购买数量：");
+	scanf("%d",&amount);
+	
+	printf("购买金额:");
+	scanf("%d",&price);
+	
+	int change=amount*price;
+	printf("付款金额：%d\n",change);
+	return 0;
+}
