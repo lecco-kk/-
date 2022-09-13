@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	double amount=0;
+	double price=0;
+	
+	printf ("购买数量:");
+	scanf("%lf",&amount);
+	
+	printf("物品价格:");
+	scanf("%lf",&price);
+	
+	printf("付款金额：%f\n",amount*price);
+	
+	return 0;
+	
+}
